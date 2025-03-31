@@ -1,0 +1,12 @@
+﻿name: Build APK
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build APK
+        uses: android-actions/build-android@v2
+        with:
+          project-path: app
