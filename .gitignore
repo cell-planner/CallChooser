@@ -1,0 +1,24 @@
+﻿# Built files
+*.apk
+*.ap_
+*.aab
+
+# Logs
+*.log
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Keystores
+*.jks
+*.keystore
